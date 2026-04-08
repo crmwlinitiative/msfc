@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mixed-Status Family Conference — April 9, 2026 | ASU Law</title>
+<meta name="description" content="Immigration Enforcement, Resistance and Narratives Through the Lens of Mixed-Status Families. A day-long interdisciplinary conference at the Sandra Day O'Connor College of Law, Arizona State University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--maroon:#8C1D40;
+--gold:#FFC627;
+--dark:#1a1a1a;
+--light:#faf9f7;
+--warm-gray:#f3f0ec;
+--text:#2c2c2c;
+--text-light:#5a5a5a;
+--heading:'Cormorant Garamond',Georgia,serif;
+--body:'DM Sans','Helvetica Neue',Arial,sans-serif;
+--max-w:1140px;
+--section-pad:5rem 1.5rem;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--text);background:var(--light);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--maroon);text-decoration:none;transition:color .2s}
+a:hover{color:var(--gold)}
+
+/* ── Utility ── */
+.container{max-width:var(--max-w);margin:0 auto;padding:0 1.5rem}
+.section{padding:var(--section-pad)}
+.section-label{font-family:var(--body);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--maroon);font-weight:600;margin-bottom:.75rem}
+.section-title{font-family:var(--heading);font-size:clamp(2rem,4vw,2.8rem);font-weight:700;color:var(--dark);line-height:1.2;margin-bottom:1.25rem}
+.section-subtitle{font-size:1.05rem;color:var(--text-light);max-width:680px;line-height:1.75}
+
+/* ── Top Bar ── */
+.top-bar{background:var(--dark);color:rgba(255,255,255,.7);font-size:.75rem;padding:.55rem 1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+.top-bar a{color:rgba(255,255,255,.85);font-weight:500}
+.top-bar a:hover{color:var(--gold)}
+
+/* ── Header / Nav ── */
+.site-header{background:#fff;border-bottom:1px solid rgba(0,0,0,.06);position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);background:rgba(255,255,255,.92)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:.85rem 1.5rem;max-width:var(--max-w);margin:0 auto}
+.nav-brand{display:flex;flex-direction:column;gap:.1rem}
+.nav-brand-school{font-family:var(--heading);font-size:1rem;font-weight:700;color:var(--dark);line-height:1.2}
+.nav-brand-initiative{font-size:.7rem;letter-spacing:.06em;color:var(--maroon);font-weight:600;text-transform:uppercase}
+.nav-links{display:flex;gap:1.75rem;align-items:center}
+.nav-links a{font-size:.82rem;font-weight:500;color:var(--text);letter-spacing:.02em}
+.nav-links a:hover{color:var(--maroon)}
+.nav-cta{background:var(--maroon);color:#fff!important;padding:.55rem 1.25rem;border-radius:4px;font-weight:600;font-size:.8rem;letter-spacing:.03em}
+.nav-cta:hover{background:#6d1633;color:#fff!important}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:.25rem}
+.nav-toggle span{display:block;width:22px;height:2px;background:var(--dark);margin:5px 0;transition:.3s}
+
+/* ── Hero ── */
+.hero{background:var(--maroon);color:#fff;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(140,29,64,.95),rgba(100,15,45,.98));z-index:1}
+.hero-pattern{position:absolute;inset:0;opacity:.04;z-index:2;background-image:repeating-linear-gradient(45deg,#fff 0,#fff 1px,transparent 1px,transparent 40px),repeating-linear-gradient(-45deg,#fff 0,#fff 1px,transparent 1px,transparent 40px)}
+.hero-inner{position:relative;z-index:3;max-width:var(--max-w);margin:0 auto;padding:5rem 1.5rem 4.5rem}
+.hero-meta{display:flex;gap:2rem;margin-bottom:2rem;flex-wrap:wrap}
+.hero-meta-item{font-size:.8rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;opacity:.8}
+.hero-meta-item strong{color:var(--gold);display:block;font-size:1rem;text-transform:none;letter-spacing:0;margin-top:.15rem;opacity:1}
+.hero h1{font-family:var(--heading);font-size:clamp(2.4rem,5.5vw,3.6rem);font-weight:700;line-height:1.12;margin-bottom:1.25rem;max-width:820px}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero-subtitle{font-size:1.1rem;line-height:1.7;max-width:680px;opacity:.88;margin-bottom:2rem}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.75rem;border-radius:4px;font-weight:600;font-size:.88rem;letter-spacing:.03em;transition:all .2s}
+.btn-gold{background:var(--gold);color:var(--dark)}
+.btn-gold:hover{background:#e6b220;color:var(--dark)}
+.btn-outline{border:1.5px solid rgba(255,255,255,.4);color:#fff}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.btn-maroon{background:var(--maroon);color:#fff}
+.btn-maroon:hover{background:#6d1633;color:#fff}
+
+/* ── About ── */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start;margin-top:2.5rem}
+.about-stat-row{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2rem}
+.stat-card{background:#fff;border-radius:6px;padding:1.5rem;border-left:3px solid var(--gold)}
+.stat-card .num{font-family:var(--heading);font-size:2rem;font-weight:700;color:var(--maroon);line-height:1}
+.stat-card .label{font-size:.82rem;color:var(--text-light);margin-top:.35rem}
+
+/* ── Keynote ── */
+.keynote{background:var(--warm-gray)}
+.keynote-card{background:#fff;border-radius:8px;padding:2.5rem 3rem;max-width:800px;margin:2rem auto 0;border-top:4px solid var(--gold)}
+.keynote-name{font-family:var(--heading);font-size:1.8rem;font-weight:700;color:var(--dark);margin-bottom:.25rem}
+.keynote-title{font-size:.92rem;color:var(--text-light);margin-bottom:1rem}
+.keynote-bio{font-size:.95rem;line-height:1.75;color:var(--text)}
+
+/* ── Schedule ── */
+.schedule-panel{background:#fff;border-radius:8px;margin-bottom:1.5rem;border:1px solid rgba(0,0,0,.06);overflow:hidden}
+.panel-header{display:flex;align-items:flex-start;gap:1.25rem;padding:1.75rem 2rem;cursor:pointer;transition:background .2s}
+.panel-header:hover{background:rgba(140,29,64,.02)}
+.panel-time{font-family:var(--heading);font-size:1.3rem;font-weight:700;color:var(--maroon);min-width:90px;padding-top:.15rem}
+.panel-info h3{font-family:var(--heading);font-size:1.25rem;font-weight:700;color:var(--dark);line-height:1.3;margin-bottom:.35rem}
+.panel-info .panel-topics{font-size:.88rem;color:var(--text-light);line-height:1.65}
+.panel-speakers{padding:0 2rem 1.75rem 2rem;margin-left:calc(90px + 1.25rem)}
+.speaker-row{display:flex;align-items:baseline;gap:.5rem;padding:.45rem 0;font-size:.92rem;border-bottom:1px solid rgba(0,0,0,.04)}
+.speaker-row:last-child{border-bottom:none}
+.speaker-name{font-weight:600;color:var(--dark)}
+.speaker-aff{color:var(--text-light)}
+.speaker-virtual{font-size:.72rem;font-weight:600;color:#fff;background:var(--maroon);padding:.1rem .45rem;border-radius:3px;margin-left:.35rem;vertical-align:middle}
+.panel-moderator{font-size:.88rem;color:var(--text-light);padding:0 2rem 1.5rem;margin-left:calc(90px + 1.25rem);font-style:italic}
+.interpreting-note{display:inline-flex;align-items:center;gap:.4rem;background:#FFF8E1;border:1px solid #FFE082;border-radius:4px;padding:.3rem .65rem;font-size:.78rem;font-weight:500;color:#8D6E00;margin-top:.5rem}
+
+/* ── Webinar ── */
+.webinar{background:var(--dark);color:#fff}
+.webinar .section-label{color:var(--gold)}
+.webinar .section-title{color:#fff}
+.webinar-content{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2rem;align-items:start}
+.webinar-steps{counter-reset:step}
+.webinar-step{counter-increment:step;position:relative;padding-left:2.5rem;margin-bottom:1.5rem;font-size:.95rem;color:rgba(255,255,255,.85);line-height:1.7}
+.webinar-step::before{content:counter(step);position:absolute;left:0;top:.15rem;width:1.6rem;height:1.6rem;background:var(--gold);color:var(--dark);font-weight:700;font-size:.75rem;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.webinar-note{background:rgba(255,255,255,.06);border-radius:6px;padding:1.75rem;border-left:3px solid var(--gold)}
+.webinar-note h4{color:var(--gold);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem}
+.webinar-note p{font-size:.9rem;color:rgba(255,255,255,.75);line-height:1.7}
+
+/* ── Speakers / Bios ── */
+.speakers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;margin-top:2rem}
+.speaker-card{background:#fff;border-radius:8px;padding:1.75rem;border:1px solid rgba(0,0,0,.06);transition:box-shadow .2s}
+.speaker-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.speaker-card h4{font-family:var(--heading);font-size:1.15rem;font-weight:700;color:var(--dark);margin-bottom:.2rem}
+.speaker-card .role{font-size:.82rem;color:var(--maroon);font-weight:500;margin-bottom:.75rem;line-height:1.4}
+.speaker-card p{font-size:.85rem;color:var(--text-light);line-height:1.7}
+.bio-toggle{background:none;border:none;color:var(--maroon);font-size:.82rem;font-weight:600;cursor:pointer;margin-top:.5rem;padding:0}
+.bio-toggle:hover{color:var(--gold)}
+.bio-full{display:none;margin-top:.5rem}
+.bio-full.open{display:block}
+
+/* ── Sponsors ── */
+.sponsors{background:var(--warm-gray)}
+.sponsor-group{margin-top:2rem}
+.sponsor-group h3{font-family:var(--heading);font-size:1.3rem;font-weight:700;color:var(--dark);margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--gold)}
+.sponsor-list{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:2rem}
+.sponsor-tag{background:#fff;padding:.55rem 1rem;border-radius:4px;font-size:.85rem;font-weight:500;color:var(--text);border:1px solid rgba(0,0,0,.06)}
+a.sponsor-tag{transition:all .2s;text-decoration:none}
+a.sponsor-tag:hover{border-color:var(--maroon);color:var(--maroon);box-shadow:0 2px 8px rgba(140,29,64,.1)}
+
+/* ── About Us ── */
+.team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.5rem;margin-top:2rem}
+.team-card{background:#fff;border-radius:8px;padding:1.75rem;border:1px solid rgba(0,0,0,.06);text-align:center}
+.team-card h4{font-family:var(--heading);font-size:1.15rem;font-weight:700;color:var(--dark);margin-bottom:.15rem}
+.team-card .team-role{font-size:.82rem;color:var(--maroon);font-weight:500;margin-bottom:.5rem}
+.team-card .team-email{font-size:.82rem;color:var(--text-light)}
+
+/* ── RSVP ── */
+.rsvp{background:var(--maroon);color:#fff}
+.rsvp .section-label{color:var(--gold)}
+.rsvp .section-title{color:#fff}
+.rsvp-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2rem;align-items:start}
+.rsvp-details{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.rsvp-detail{background:rgba(255,255,255,.08);border-radius:6px;padding:1rem 1.25rem}
+.rsvp-detail .detail-label{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:.25rem}
+.rsvp-detail .detail-value{font-size:.95rem;color:#fff}
+.rsvp-right{text-align:center;padding:2rem}
+.rsvp-right p{font-size:.95rem;opacity:.85;margin-bottom:1.5rem;line-height:1.7}
+.rsvp-contact{margin-top:2rem;font-size:.9rem;opacity:.75}
+.rsvp-contact a{color:var(--gold)}
+
+/* ── Footer ── */
+.site-footer{background:var(--dark);color:rgba(255,255,255,.7);padding:3rem 1.5rem 2rem}
+.footer-inner{max-width:var(--max-w);margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem}
+.footer-brand{font-family:var(--heading);font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+.footer-desc{font-size:.85rem;line-height:1.65;max-width:380px;color:rgba(255,255,255,.55)}
+.footer-col h4{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;font-weight:600}
+.footer-col a{display:block;font-size:.85rem;color:rgba(255,255,255,.65);margin-bottom:.5rem}
+.footer-col a:hover{color:var(--gold)}
+.footer-bottom{max-width:var(--max-w);margin:2rem auto 0;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;font-size:.78rem;color:rgba(255,255,255,.4);flex-wrap:wrap;gap:.5rem}
+.footer-bottom a{color:var(--gold)}
+
+/* ── Donate Banner ── */
+.donate-banner{background:linear-gradient(135deg,#FFC627,#e6b220);padding:3rem 1.5rem;text-align:center}
+.donate-banner h2{font-family:var(--heading);font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:700;color:var(--dark);margin-bottom:.5rem}
+.donate-banner p{font-size:1rem;color:rgba(0,0,0,.7);max-width:580px;margin:0 auto 1.5rem;line-height:1.7}
+.btn-donate{background:var(--maroon);color:#fff!important;padding:.85rem 2.5rem;border-radius:4px;font-weight:700;font-size:1rem;letter-spacing:.03em;display:inline-flex;align-items:center;gap:.5rem;transition:all .2s;box-shadow:0 4px 15px rgba(140,29,64,.3)}
+.btn-donate:hover{background:#6d1633;color:#fff!important;box-shadow:0 6px 20px rgba(140,29,64,.4);transform:translateY(-1px)}
+
+/* ── Responsive ── */
+@media(max-width:860px){
+  .about-grid,.webinar-content,.rsvp-grid{grid-template-columns:1fr}
+  .footer-inner{grid-template-columns:1fr;gap:2rem}
+  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;flex-direction:column;padding:1.5rem;gap:1rem;border-top:1px solid rgba(0,0,0,.06);box-shadow:0 8px 20px rgba(0,0,0,.08)}
+  .nav-links.open{display:flex}
+  .nav-toggle{display:block}
+  .panel-speakers,.panel-moderator{margin-left:0}
+  .panel-header{flex-direction:column;gap:.5rem}
+  .panel-time{min-width:auto}
+  .rsvp-details{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .hero h1{font-size:2rem}
+  .hero-meta{gap:1rem}
+  .speakers-grid{grid-template-columns:1fr}
+  .about-stat-row{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <span>Sandra Day O'Connor College of Law &nbsp;|&nbsp; Arizona State University</span>
+  <a href="https://law.asu.edu/civil-rights-migration-and-workplace-law-initiative">Initiative Home →</a>
+</div>
+
+<!-- Navigation -->
+<header class="site-header">
+  <nav class="nav-inner">
+    <div class="nav-brand">
+      <span class="nav-brand-school">Sandra Day O'Connor College of Law</span>
+      <span class="nav-brand-initiative">Civil Rights, Migration &amp; Workplace Law Initiative</span>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#online">Watch Online</a>
+      <a href="#sponsors">Sponsors</a>
+      <a href="#team">About Us</a>
+      <a href="https://www.asufoundation.org/changing-futures/empower-community-resilience/civil-rights-migration-and-workplace-law-initiative-CA127953.html" style="color:var(--gold);font-weight:600">Support ♥</a>
+      <a href="http://tiny.cc/mixtedstatusapril9" class="nav-cta">RSVP Now</a>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero-pattern"></div>
+  <div class="hero-inner">
+    <div class="hero-meta">
+      <div class="hero-meta-item">Date<strong>Thursday, April 9, 2026</strong></div>
+      <div class="hero-meta-item">Time<strong>9:00 AM – 5:00 PM MST</strong></div>
+      <div class="hero-meta-item">Venue<strong>Armstrong Great Hall, ASU Law</strong></div>
+    </div>
+    <h1>Mixed-Status Family <em>Conference</em></h1>
+    <p class="hero-subtitle">Immigration Enforcement, Resistance and Narratives Through the Lens of Mixed-Status Families — A day-long interdisciplinary conference convening leading scholars, practitioners, journalists, and community voices at the Sandra Day O'Connor College of Law.</p>
+    <div class="hero-actions">
+      <a href="http://tiny.cc/mixtedstatusapril9" class="btn btn-gold">Register Now — Free</a>
+      <a href="#online" class="btn btn-outline">Watch Online</a>
+    </div>
+  </div>
+</section>
+
+<!-- About the Conference -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-label">About the Conference</div>
+    <div class="section-title">A Critical Conversation at a Defining Moment</div>
+    <div class="about-grid">
+      <div>
+        <p class="section-subtitle" style="max-width:none">An estimated 4.4 million U.S.-citizen children live with at least one undocumented parent, and more than 10 million people reside in mixed-status families. This interdisciplinary conference brings together nationally recognized scholars, legal practitioners, journalists, and community advocates to examine the legal threats, lived experiences, and resistance strategies of mixed-status families — exploring law, narrative, and transnational approaches as tools for protection and change.</p>
+        <p style="margin-top:1rem;font-size:.95rem;color:var(--text-light);line-height:1.75">Convened by the Civil Rights, Migration and Workplace Law Initiative at ASU Law, this full-day event offers a rare opportunity to engage with leading voices at the intersection of immigration law, civil rights, and family life in America.</p>
+      </div>
+      <div>
+        <div class="about-stat-row">
+          <div class="stat-card"><div class="num">4.4M</div><div class="label">U.S.-citizen children with an undocumented parent</div></div>
+          <div class="stat-card"><div class="num">10M+</div><div class="label">People in mixed-status families</div></div>
+          <div class="stat-card"><div class="num">4</div><div class="label">Expert panels across disciplines</div></div>
+          <div class="stat-card"><div class="num">20+</div><div class="label">Distinguished speakers and moderators</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Keynote -->
+<section class="section keynote" id="keynote">
+  <div class="container">
+    <div class="section-label">Keynote Speaker</div>
+    <div class="keynote-card">
+      <div class="keynote-name">César Cuauhtémoc García Hernández</div>
+      <div class="keynote-title">Gregory H. Williams Chair in Civil Rights &amp; Civil Liberties · Ohio State University College of Law<br>Author of <em>Migrating to Prison</em> and <em>Welcome the Wretched</em></div>
+      <p class="keynote-bio">Professor García Hernández holds the Gregory Williams Chair in Civil Rights and Civil Liberties at Ohio State University, where he is a professor of law and director of OSU's Latinx Studies Program. He writes and teaches about the intersection of criminal and immigration law and has published three books and over three dozen scholarly articles, earning him recognition as one of the most-cited immigration law scholars in the United States. His analyses of policies affecting migrants regularly appear in <em>The New York Times</em>, <em>Los Angeles Times</em>, <em>The Guardian</em>, <em>Time</em>, and many other venues.</p>
+    </div>
+    <div style="text-align:center;margin-top:1.25rem">
+      <p style="font-size:.85rem;color:var(--text-light)">Co-Sponsors: <strong>ASU Hispanic Research Center</strong> · <strong>School of Transborder Studies</strong> · <strong>Sandra Day O'Connor College of Law</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule -->
+<section class="section" id="schedule" style="background:#fff">
+  <div class="container">
+    <div class="section-label">Conference Program</div>
+    <div class="section-title">Panels &amp; Presentations</div>
+    <p class="section-subtitle" style="margin-bottom:2.5rem">The day features a keynote address and four expert panels examining mixed-status families from legal, scholarly, journalistic, and community perspectives.</p>
+
+    <!-- Opening -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">9:00 AM</div>
+        <div class="panel-info">
+          <h3>Welcome and Opening Remarks</h3>
+        </div>
+      </div>
+      <div class="panel-speakers">
+        <div class="speaker-row"><span class="speaker-name">Dean Stacy Leeds</span><span class="speaker-aff"> — Opening Remarks · Dean, Sandra Day O'Connor College of Law, ASU</span></div>
+        <div class="speaker-row"><span class="speaker-name">Professor David Lopez</span><span class="speaker-aff"> — Welcome &amp; Introductions · Director, CRMWLI · Sandra Day O'Connor College of Law, ASU</span></div>
+      </div>
+    </div>
+
+    <!-- Panel 1 -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">9:15 AM</div>
+        <div class="panel-info">
+          <h3>Panel 1: Legal Threats and Opportunities for Mixed-Status Families</h3>
+          <p class="panel-topics">Legal rights and remedies for mixed-status families; the threat to birthright citizenship; family reunification under fire; family separations; and practical challenges for detained family members.</p>
+          <div class="interpreting-note">🌐 Limited Spanish interpreting available for this panel</div>
+        </div>
+      </div>
+      <div class="panel-speakers">
+        <div class="speaker-row"><span class="speaker-name">Rose Cuison-Villazor</span><span class="speaker-aff"> — Professor of Law &amp; Chancellor's Social Justice Scholar, Rutgers Law School</span><span class="speaker-virtual">Virtual</span></div>
+        <div class="speaker-row"><span class="speaker-name">Cassaundra Rodriguez</span><span class="speaker-aff"> — Associate Professor of Sociology, University of Nevada, Las Vegas</span><span class="speaker-virtual">Virtual</span></div>
+        <div class="speaker-row"><span class="speaker-name">Caitlin Millat</span><span class="speaker-aff"> — Assistant Professor, Sandra Day O'Connor College of Law, ASU</span></div>
+        <div class="speaker-row"><span class="speaker-name">Dr. Laura Dicochea</span><span class="speaker-aff"> — Dean of Students Senior Coordinator; PhD in Transborder Studies</span></div>
+      </div>
+      <div class="panel-moderator">Moderator: Vice Dean Angela Banks · Sandra Day O'Connor College of Law, ASU</div>
+    </div>
+
+    <!-- Break -->
+    <div class="schedule-panel" style="background:var(--warm-gray)">
+      <div class="panel-header">
+        <div class="panel-time">10:30 AM</div>
+        <div class="panel-info"><h3>Networking Break</h3></div>
+      </div>
+    </div>
+
+    <!-- Panel 2 -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">10:45 AM</div>
+        <div class="panel-info">
+          <h3>Panel 2: Reframing Narratives — Storytelling, Mobilization, and Dissent</h3>
+          <p class="panel-topics">The role of humanities and journalism in narrative-building; 'American' children and the dynamics of activism; performative citizenship; and community-based resistance strategies.</p>
+        </div>
+      </div>
+      <div class="panel-speakers">
+        <div class="speaker-row"><span class="speaker-name">Karina Ruiz</span><span class="speaker-aff"> — Senator, Mexican Legislature; Former Executive Director, Arizona Dream Act Coalition</span><span class="speaker-virtual">Virtual</span></div>
+        <div class="speaker-row"><span class="speaker-name">Rafael Martínez</span><span class="speaker-aff"> — Assistant Professor of Southwest Borderlands, College of Integrative Sciences and Arts, ASU</span></div>
+        <div class="speaker-row"><span class="speaker-name">Golden McCarthy</span><span class="speaker-aff"> — Executive Director, Phoenix Legal Action Network (PLAN)</span></div>
+        <div class="speaker-row"><span class="speaker-name">Elvia Diaz</span><span class="speaker-aff"> — Independent Journalist and host of <em>Notas con Elvia Diaz</em></span></div>
+        <div class="speaker-row"><span class="speaker-name">Krsna Avila</span><span class="speaker-aff"> — Legal Director, Path2Papers, a Project of Cornell Law School</span></div>
+      </div>
+      <div class="panel-moderator">Moderator: Anita Huízar-Hernández · Associate Director, Hispanic Research Center, ASU</div>
+    </div>
+
+    <!-- Keynote / Lunch -->
+    <div class="schedule-panel" style="border-left:4px solid var(--gold)">
+      <div class="panel-header">
+        <div class="panel-time">12:15 PM</div>
+        <div class="panel-info">
+          <h3>Lunch and Keynote Address</h3>
+          <p class="panel-topics">César Cuauhtémoc García Hernández · Ohio State University College of Law</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3 -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">1:30 PM</div>
+        <div class="panel-info">
+          <h3>Panel 3: Interdisciplinary and Transnational Approaches to the Support, Protection, and Reintegration of Mixed-Status Families</h3>
+          <p class="panel-topics">Transborder support networks; mental health and intergenerational trauma; the role of faith-based organizations; and lessons from mass incarceration. Examining the support, protection, and reintegration networks on the Mexico side of the border.</p>
+        </div>
+      </div>
+      <div class="panel-speakers">
+        <div class="speaker-row"><span class="speaker-name">Tran Dang</span><span class="speaker-aff"> — Founder and Director, Rhizome Center for Migrants, Guadalajara, Mexico</span></div>
+        <div class="speaker-row"><span class="speaker-name">Nicole Elizabeth Ramos</span><span class="speaker-aff"> — Director, Border Rights Project at Al Otro Lado, Tijuana, Mexico</span></div>
+        <div class="speaker-row"><span class="speaker-name">Dr. Emir Estrada</span><span class="speaker-aff"> — Associate Professor, School of Human Evolution and Social Change, ASU</span></div>
+        <div class="speaker-row"><span class="speaker-name">Honorable Jorge Mendoza Yescas</span><span class="speaker-aff"> — Consul General, Mexican Consulate Phoenix</span></div>
+      </div>
+      <div class="panel-moderator">Moderator: Irasema Coronado · Director, School of Transborder Studies, ASU</div>
+    </div>
+
+    <!-- Break -->
+    <div class="schedule-panel" style="background:var(--warm-gray)">
+      <div class="panel-header">
+        <div class="panel-time">3:00 PM</div>
+        <div class="panel-info"><h3>Afternoon Break</h3></div>
+      </div>
+    </div>
+
+    <!-- Panel 4 -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">3:15 PM</div>
+        <div class="panel-info">
+          <h3>Panel 4: On-the-Ground Challenges for Lawyers, Educators, and Service Providers</h3>
+          <p class="panel-topics">The frontline realities of representing detained and deportable individuals; educational disruption; and community-based service delivery under enforcement pressure.</p>
+          <div class="interpreting-note">🌐 Limited Spanish interpreting available for this panel</div>
+        </div>
+      </div>
+      <div class="panel-speakers">
+        <div class="speaker-row"><span class="speaker-name">Salvador (Sal) Macias</span><span class="speaker-aff"> — Immigration &amp; Criminal Defense Attorney, Macias Law Firm</span></div>
+        <div class="speaker-row"><span class="speaker-name">Katie Ruhl</span><span class="speaker-aff"> — Managing Attorney, Florence Immigrant &amp; Refugee Rights Project</span></div>
+        <div class="speaker-row"><span class="speaker-name">Juan Cuéllar Torres</span><span class="speaker-aff"> — Director of Education &amp; Advocacy, Kino Border Initiative, Nogales, AZ</span></div>
+        <div class="speaker-row"><span class="speaker-name">Reyna Montoya</span><span class="speaker-aff"> — Founder &amp; CEO, Aliento</span></div>
+      </div>
+      <div class="panel-moderator">Moderator: Professor Evelyn Cruz · Director, Immigration Clinic, Sandra Day O'Connor College of Law, ASU</div>
+    </div>
+
+    <!-- Closing -->
+    <div class="schedule-panel">
+      <div class="panel-header">
+        <div class="panel-time">4:45 PM</div>
+        <div class="panel-info"><h3>Closing Remarks</h3>
+        <p class="panel-topics">Professor David Lopez · Director, CRMWLI · Sandra Day O'Connor College of Law, ASU</p></div>
+      </div>
+    </div>
+
+    <!-- Reception -->
+    <div class="schedule-panel" style="background:var(--warm-gray)">
+      <div class="panel-header">
+        <div class="panel-time">5:00 PM</div>
+        <div class="panel-info"><h3>Reception</h3></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Watch Online -->
+<section class="section webinar" id="online">
+  <div class="container">
+    <div class="section-label">Can't Attend In Person?</div>
+    <div class="section-title">Participate Online</div>
+    <p style="color:rgba(255,255,255,.8);max-width:720px;margin-bottom:.5rem">This conference will be available via livestream — anyone can join, no registration required. Just click the link below on April 9 at 9:00 AM MST.</p>
+    <div style="margin:1.75rem 0">
+      <a href="http://tiny.cc/webinarmsfc" class="btn btn-gold" style="font-size:1.05rem;padding:.9rem 2.5rem">Join the Live Webinar →</a>
+    </div>
+    <div class="webinar-content">
+      <div>
+        <div class="webinar-note" style="margin-bottom:1.5rem">
+          <h4>Why Register?</h4>
+          <p>While anyone can access the webinar without registering, <a href="http://tiny.cc/mixtedstatusapril9" style="color:var(--gold);font-weight:600">RSVP here</a> to receive conference materials before and after the session. <strong style="color:#fff">Only registered participants will have the ability to request CLE materials.</strong></p>
+        </div>
+      </div>
+      <div class="webinar-note">
+        <h4>Spanish Language Access</h4>
+        <p>Limited interpreting to Spanish is available for Panels 1 and 4. Spanish-speaking participants should select the globe feature in the webinar interface and choose Spanish. Q&amp;A will only be monitored during the panels.</p>
+        <h4 style="margin-top:1.25rem">Accessibility</h4>
+        <p>We are committed to making this event accessible. If you need accommodations for online participation, please note your needs in the RSVP form or contact us directly at <a href="mailto:crmwlinitiative@gmail.com" style="color:var(--gold)">crmwlinitiative@gmail.com</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Speakers & Bios -->
+<section class="section" id="speakers">
+  <div class="container">
+    <div class="section-label">Conference Speakers</div>
+    <div class="section-title">Distinguished Panelists &amp; Moderators</div>
+    <div style="margin-bottom:2rem"><a href="https://docs.google.com/document/d/1uF63H3upfiboNGUeqlSWn9Kc0k96ApeL/edit?usp=sharing&ouid=112302897415546379965&rtpof=true&sd=true" class="btn btn-maroon" target="_blank" rel="noopener">Read Full Speaker Bios →</a></div>
+    <div class="speakers-grid">
+
+      <div class="speaker-card">
+        <h4>César Cuauhtémoc García Hernández</h4>
+        <div class="role">Gregory H. Williams Chair in Civil Rights &amp; Civil Liberties · Ohio State University College of Law</div>
+        <p>Professor García Hernández writes and teaches about the intersection of criminal and immigration law. He has published three books — <em>Welcome the Wretched</em>, <em>Migrating to Prison</em>, and <em>Crimmigration Law</em> — and is among the most-cited immigration law scholars in the United States.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Vice Dean Angela Banks</h4>
+        <div class="role">Charles J. Merriam Distinguished Professor of Law · ASU Law · <em>Panel 1 Moderator</em></div>
+        <p>Angela M. Banks is a legal scholar specializing in membership and belonging in democratic societies. She is a member of the Council on Foreign Relations and a graduate of Harvard Law School, the University of Oxford, and Spelman College.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Rose Cuison-Villazor</h4>
+        <div class="role">Professor of Law &amp; Chancellor's Social Justice Scholar · Rutgers Law School · <em>Panel 1 (Virtual)</em></div>
+        <p>Professor Cuison-Villazor is a distinguished scholar of citizenship, immigration, and property law at Rutgers Law School.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Cassaundra Rodriguez</h4>
+        <div class="role">Associate Professor of Sociology · University of Nevada, Las Vegas · <em>Panel 1 (Virtual)</em></div>
+        <p>Dr. Rodriguez specializes in Latinx sociology, immigration, and citizenship. Her book <em>Contested Americans: Mixed-Status Families in Anti-Immigrant Times</em> was a finalist for the SSSP C. Wright Mills Award.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Caitlin Millat</h4>
+        <div class="role">Associate Professor of Law · ASU Law · <em>Panel 1</em></div>
+        <p>Professor Millat writes on the intersection of education, family, and the state. Her work has appeared in the <em>UCLA Law Review</em>, <em>Georgetown Law Journal</em>, and <em>NYU Law Review</em>. She previously served as a Climenko Fellow at Harvard Law School.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Dr. Laura Dicochea</h4>
+        <div class="role">Dean of Students Senior Coordinator; PhD in Transborder Studies · ASU · <em>Panel 1</em></div>
+        <p>Dr. Dicochea's research examines the educational trajectories of transnational and transfronterizo students. She partners with the Secretaría de Educación y Cultura of Sonora to develop pedagogical frameworks supporting return migrant students.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Karina Ruiz</h4>
+        <div class="role">Senator, Mexican Legislature; Former Executive Director, Arizona Dream Act Coalition · <em>Panel 2 (Virtual)</em></div>
+        <p>Senator Ruiz is a prominent advocate for immigrant rights and educational equity in Arizona and Mexico.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Rafael A. Martínez, Ph.D.</h4>
+        <div class="role">Assistant Professor of Southwest Borderlands · College of Integrative Sciences and Arts, ASU · <em>Panel 2</em></div>
+        <p>Dr. Martínez's award-winning book <em>Illegalized: Undocumented Youth Movements in the United States</em> analyzes the rise of Undocumented Youth Social Movements. He is Co-Director of the newly launched Latinx Oral History Lab at ASU.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Golden McCarthy</h4>
+        <div class="role">Executive Director · Phoenix Legal Action Network (PLAN) · <em>Panel 2</em></div>
+        <p>Golden spent 10 years at the Florence Immigrant &amp; Refugee Rights Project, becoming their first Deputy Director. She later served as a Policy Advisor at the Office of Refugee Resettlement working on federal policies impacting unaccompanied children.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Elvia Diaz</h4>
+        <div class="role">Independent Journalist and host of <em>Notas con Elvia Diaz</em> · <em>Panel 2</em></div>
+        <p>Elvia Diaz is an award-winning journalist and commentator covering immigration, politics, and community issues in Arizona and the borderlands.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Krsna Avila</h4>
+        <div class="role">Legal Director · Path2Papers, a Project of Cornell Law School · <em>Panel 2</em></div>
+        <p>Krsna immigrated from Mexico as a child and brings personal and professional immigration experience. He previously served as an attorney at the Immigrant Legal Resource Center and as legal services manager at Immigrants Rising. He earned his J.D. from Cornell Law School.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Anita Huízar-Hernández</h4>
+        <div class="role">Associate Director, Hispanic Research Center · ASU · <em>Panel 2 Moderator</em></div>
+        <p>Dr. Huízar-Hernández is a scholar and leader at ASU's Hispanic Research Center, contributing to research and programming at the intersection of Latinx communities, migration, and higher education.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Tran Dang</h4>
+        <div class="role">Founder and Director · Rhizome Center for Migrants, Guadalajara, Mexico · <em>Panel 3</em></div>
+        <p>Tran Dang founded and directs the Rhizome Center for Migrants in Guadalajara, Mexico, providing transnational support and reintegration services for deported individuals and mixed-status families.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Nicole Elizabeth Ramos</h4>
+        <div class="role">Director, Border Rights Project · Al Otro Lado, Tijuana, Mexico · <em>Panel 3</em></div>
+        <p>Nicole Ramos is an attorney, movement strategist, and recognized expert on U.S. border policy and the right to seek asylum. She co-founded Al Otro Lado, a binational nonprofit providing legal, humanitarian, and social services to thousands annually.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Dr. Emir Estrada</h4>
+        <div class="role">Associate Professor, School of Human Evolution and Social Change · ASU · <em>Panel 3</em></div>
+        <p>Dr. Estrada is a sociologist whose research focuses on immigration, childhood, and community dynamics in mixed-status families and Latinx communities.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Honorable Jorge Mendoza Yescas</h4>
+        <div class="role">Consul General of Mexico in Phoenix · <em>Panel 3</em></div>
+        <p>Consul General Mendoza Yescas has over 20 years of diplomatic service. Since 2019, he has led initiatives including the recognition of the Mexican Consular ID as official identification in Arizona and the creation of the Entrepreneurship Program for Mexican Women Abroad with ASU.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Irasema Coronado</h4>
+        <div class="role">Director and Professor, School of Transborder Studies · ASU · <em>Panel 3 Moderator</em></div>
+        <p>Dr. Coronado's research centers on human rights, migration, and social justice along the U.S.–Mexico border. She is a Fulbright scholar and received the Association for Borderland Studies Lifetime Achievement Award in 2023.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Salvador (Sal) Macias</h4>
+        <div class="role">Immigration &amp; Criminal Defense Attorney · Macias Law Firm · <em>Panel 4</em></div>
+        <p>Sal Macias is a practicing immigration and criminal defense attorney who represents detained and deportable individuals in Arizona.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Katie Ruhl</h4>
+        <div class="role">Managing Attorney · Florence Immigrant &amp; Refugee Rights Project · <em>Panel 4</em></div>
+        <p>Katie Ruhl leads legal services at the Florence Project, which provides free legal and social services to adults and unaccompanied children detained in Arizona immigration detention.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Juan Cuéllar Torres</h4>
+        <div class="role">Director of Education &amp; Advocacy · Kino Border Initiative, Nogales, AZ · <em>Panel 4</em></div>
+        <p>Originally trained as a lawyer in Colombia, Juan leads binational strategies to advance migrant justice. His prior roles include leading nationwide refugee program operations with USCRI and representing Colombia at the United Nations.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Reyna Montoya</h4>
+        <div class="role">Founder &amp; CEO · Aliento · <em>Panel 4</em></div>
+        <p>Reyna Montoya is a DACAmented social entrepreneur and community organizer born in Tijuana. Under her leadership, Aliento has impacted over 70,000 individuals and educated nearly 100,000 voters, playing a key role in passing Prop 308 in Arizona.</p>
+      </div>
+
+      <div class="speaker-card">
+        <h4>Professor Evelyn Cruz</h4>
+        <div class="role">Director, Immigration Clinic · Sandra Day O'Connor College of Law, ASU · <em>Panel 4 Moderator</em></div>
+        <p>Professor Cruz is a Clinical Professor of Law and Director of the Immigration Clinic at ASU Law, where she oversees direct representation and training in immigration legal practice.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Sponsors -->
+<section class="section sponsors" id="sponsors">
+  <div class="container">
+    <div class="section-label">Thank You</div>
+    <div class="section-title">Our Sponsors &amp; Partners</div>
+    <p class="section-subtitle">This conference is made possible by the generous support of the following co-sponsors, student organizations, and community partners.</p>
+
+    <div class="sponsor-group">
+      <h3>Institutional Co-Sponsors</h3>
+      <div class="sponsor-list">
+        <a class="sponsor-tag" href="https://hrc.asu.edu/" target="_blank" rel="noopener">ASU Hispanic Research Center</a>
+        <a class="sponsor-tag" href="https://sts.asu.edu/" target="_blank" rel="noopener">School of Transborder Studies</a>
+        <a class="sponsor-tag" href="https://law.asu.edu/" target="_blank" rel="noopener">Sandra Day O'Connor College of Law</a>
+      </div>
+    </div>
+
+    <div class="sponsor-group">
+      <h3>Student Organization Sponsors</h3>
+      <div class="sponsor-list">
+        <a class="sponsor-tag" href="https://law.asu.edu/student-life/organizations/sba" target="_blank" rel="noopener">Student Bar Association (SBA)</a>
+        <a class="sponsor-tag" href="https://law.asu.edu/student-life/organizations/cllsa" target="_blank" rel="noopener">Chicano Latino Law Students Association (CLLSA)</a>
+        <a class="sponsor-tag" href="https://law.asu.edu/student-life/organizations/nlg" target="_blank" rel="noopener">National Lawyers Guild (NLG)</a>
+        <a class="sponsor-tag" href="https://law.asu.edu/student-life/organizations/gpilsa" target="_blank" rel="noopener">Government &amp; Public Interest Law Student Association (GPILSA)</a>
+      </div>
+    </div>
+
+    <div class="sponsor-group">
+      <h3>Community &amp; Professional Sponsors</h3>
+      <div class="sponsor-list">
+        <a class="sponsor-tag" href="https://lofises.com/" target="_blank" rel="noopener">Law Offices of Esteban Escobedo</a>
+        <a class="sponsor-tag" href="https://www.mcordova.com/" target="_blank" rel="noopener">Law Offices of Michael Córdova</a>
+        <a class="sponsor-tag" href="https://www.danielrodriguezlaw.com/" target="_blank" rel="noopener">Law Offices of Daniel A. Rodriguez</a>
+        <a class="sponsor-tag" href="https://www.fragomen.com/" target="_blank" rel="noopener">Fragomen, Del Rey, Bernsen &amp; Loewy, LLP</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- About Us / Team -->
+<section class="section" id="team" style="background:#fff">
+  <div class="container">
+    <div class="section-label">About Us</div>
+    <div class="section-title">The Initiative Team</div>
+    <p class="section-subtitle" style="margin-bottom:.5rem">The Civil Rights, Migration and Workplace Law Initiative at ASU Law advances justice through public education, interdisciplinary scholarship, community engagement, and the development of the next generation of civil rights leaders.</p>
+    <div class="team-grid">
+      <div class="team-card">
+        <h4>Professor David Lopez</h4>
+        <div class="team-role">Director, CRMWLI<br>Distinguished Professor of Practice</div>
+        <div class="team-email">pdlopez5@asu.edu</div>
+      </div>
+      <div class="team-card">
+        <h4>Amelia Raudales</h4>
+        <div class="team-role">Program Associate</div>
+        <div class="team-email">araudale@asu.edu</div>
+      </div>
+      <div class="team-card">
+        <h4>Abdi Lopez</h4>
+        <div class="team-role">Program Associate</div>
+        <div class="team-email">alopez48@asu.edu</div>
+      </div>
+      <div class="team-card">
+        <h4>Zachary Cooper</h4>
+        <div class="team-role">Program Associate</div>
+        <div class="team-email">zjcooper@asu.edu</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RSVP -->
+<section class="section rsvp" id="register">
+  <div class="container">
+    <div class="section-label">Register</div>
+    <div class="section-title">RSVP for the Conference</div>
+    <div class="rsvp-grid">
+      <div class="rsvp-details">
+        <div class="rsvp-detail"><div class="detail-label">Date</div><div class="detail-value">Thursday, April 9, 2026</div></div>
+        <div class="rsvp-detail"><div class="detail-label">Time</div><div class="detail-value">9:00 AM – 5:00 PM MST</div></div>
+        <div class="rsvp-detail"><div class="detail-label">Venue</div><div class="detail-value">Armstrong Great Hall, Sandra Day O'Connor College of Law, ASU</div></div>
+        <div class="rsvp-detail"><div class="detail-label">Address</div><div class="detail-value">111 E. Taylor Street, Phoenix, AZ 85004</div></div>
+        <div class="rsvp-detail"><div class="detail-label">Format</div><div class="detail-value">In-Person &amp; Livestream</div></div>
+        <div class="rsvp-detail"><div class="detail-label">Cost</div><div class="detail-value">Free and open to the public</div></div>
+      </div>
+      <div class="rsvp-right">
+        <p>Whether you plan to attend in person or join the livestream, please register below. Registration is free and takes less than a minute.</p>
+        <a href="http://tiny.cc/mixtedstatusapril9" class="btn btn-gold" style="font-size:1rem;padding:.85rem 2.25rem">Register for the Conference</a>
+        <p style="font-size:.82rem;margin-top:1rem;opacity:.6">Both in-person and online participants should register.</p>
+        <div class="rsvp-contact">Questions? Contact us at <a href="mailto:crmwlinitiative@gmail.com">crmwlinitiative@gmail.com</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Support the Initiative -->
+<section class="donate-banner">
+  <h2>Support the Initiative</h2>
+  <p>Your generosity helps us advance civil rights education, support the next generation of leaders, and expand community engagement across Arizona and beyond.</p>
+  <a href="https://www.asufoundation.org/changing-futures/empower-community-resilience/civil-rights-migration-and-workplace-law-initiative-CA127953.html" class="btn-donate">Make a Donation →</a>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Civil Rights, Migration &amp; Workplace Law Initiative</div>
+      <p class="footer-desc">Sandra Day O'Connor College of Law · Arizona State University<br><br>Advancing justice through public education, interdisciplinary scholarship, community engagement, and the development of the next generation of civil rights leaders.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="https://law.asu.edu/civil-rights-migration-and-workplace-law-initiative">Initiative Home</a>
+      <a href="https://law.asu.edu/newsroom/david-lopez-trailblazing-civil-rights-leader-rejoin-asu-law-full-time-faculty-member">About Professor Lopez</a>
+      <a href="https://rss.com/podcasts/derechos-y-esperanza/">Podcast: Derechos y Esperanza</a>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <a href="https://www.asufoundation.org/changing-futures/empower-community-resilience/civil-rights-migration-and-workplace-law-initiative-CA127953.html">Make a Donation</a>
+      <a href="mailto:crmwlinitiative@gmail.com">Contact Us</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Arizona State University. All rights reserved.</span>
+    <a href="https://www.asufoundation.org/changing-futures/empower-community-resilience/civil-rights-migration-and-workplace-law-initiative-CA127953.html">Support the Initiative →</a>
+  </div>
+</footer>
+
+</body>
+</html>
